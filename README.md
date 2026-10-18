@@ -86,7 +86,7 @@ No installation required.
 
 ## 🌐 Live Demo
 
-Play here: https://babuhappy531-lab.github.io/tic-tac-toe-game/
+Play here: https://happy-531.github.io/tic-tac-toe-game/
 
 ## 💡 Future Improvements
 
