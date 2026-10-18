@@ -13,7 +13,7 @@
 }
 
 .container{
-  width: 300px;
+  width: auto;
   height: auto;
   background-color: #333;
   color: white;
@@ -29,17 +29,21 @@
 }
 
 .game-container{
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 2vw;
   font-size: 2rem;
 }
 
 .rows{
+  height: 100%;
+  width: 100%;
   margin-top: 2vw;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .box{
@@ -47,9 +51,12 @@
   border: none;
   background-color: #666;
   color: white;
-  height: 80px;
-  width: 80px;
+  height: 90%;
+  min-height: 100px;
+  min-width: 100px;
+  width: 90%;
   font-size: 3rem;
+  margin: 10px;
 }
 
 .box:hover{
@@ -58,31 +65,31 @@
 
 .reset{
   margin-top: 10px;
-  padding: 5px;
-  width: 80px;
+  padding: 1rem 2rem;
+  width: 25vw;
   height: auto;
-  border-radius: 2vw;
+  border-radius: 1.4vw;
   border: none;
-  font-size: 2rem;
+  font-size: 15vw;
   background-color: #00FFF7;
-  font-size: 2rem;
+  font-size: 5vw;
   text-align: center;
 }
 
 .score-board{
   height: auto;
-  padding: 5px 20px;
-  width: 100px;
+  width: 30dvw;
+  padding: 1vw 4vw;
   position: fixed;
   top: 5px;
   left: 10px;
-  font-size: 3rem;
+  font-size: 5vw;
   display: column;
   text-align: center;
   color: white;
 }
 .score{
-  font-size: 2.5rem;
+  font-size: 8vw;
   color: #ccc;
 }
 
